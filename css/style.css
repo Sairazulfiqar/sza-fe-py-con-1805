@@ -1,0 +1,53 @@
+body {
+    background-color: azure;
+    margin: 0;
+}
+
+#container {
+    background-color:cornflowerblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carcasa {
+    background-color: yellow;
+    border: 1px black solid;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 50px 5px 30px rgb(77, 122, 204) ;
+}
+
+.comp {
+    background-color: red;
+    margin: 10px;
+}
+
+#Pantalla {
+    height: 230px;
+    border-radius: ;
+}
+
+#logogameboy {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#letras {
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+#control {
+    height: 100px;
+
+}
+
+#audio {
+    height: 70px;
+
+}
