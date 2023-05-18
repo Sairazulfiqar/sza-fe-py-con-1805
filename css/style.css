@@ -12,42 +12,162 @@ body {
 }
 
 #carcasa {
-    background-color: yellow;
+    background-color: greenyellow;
     border: 1px black solid;
     width: 300px;
     height: 500px;
-    border-radius: 20px;
+    border-radius: 10px 10px 20px 20px;
     box-shadow: 50px 5px 30px rgb(77, 122, 204) ;
 }
 
 .comp {
-    background-color: red;
     margin: 10px;
+    border: black 1px solid;
 }
 
 #Pantalla {
-    height: 230px;
-    border-radius: ;
+    height: 240px;
+    border-radius: 10px 10px 20px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(47, 47, 47);
+}
+
+#pant-izq{
+    display: flex;
+    height: 200px ;
+    width: 30px;
+}
+
+#pant-main {
+    display: flex;
+    height: 165px;
+    width: 260px;
+    margin-top: 10%;
+    background-color: black;
+}
+
+#pant-der {
+    display: flex;
+    height: 200px;
+    width: 30px;
+}
+
+.p-lat {
+    color: white;
+    width: 40px;
+    font-size:xx-small;
+    text-align: center;
+    align-items: center;
+}
+
+#led {
+    margin-top: 50px;
+    margin-left: 20px ;
+    background-color: red;
+    width: 5px;
+    height: 5px;
+}
+
+#power {
+
 }
 
 #logogameboy {
     height: 30px;
+    width: 200px ;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -17%;
+    margin-left: 15%;
 }
 
-#letras {
-    border: 1px black solid;
+#letraslogo {
+    font-family:'Gill Sans bold italic';
+    color:rgb(59, 99, 99);
+
+}
+
+#C {
+    color: red;
+}
+
+#O{
+    color: purple;
+}
+
+#L {
+    color: greenyellow ;
+}
+
+O2 {
+    color: yellow;
+}
+
+#nintendo {
+    border: black 1px solid;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36%;
+    margin-top: 6%;
+    width: 80px;
 }
 
 #control {
-    height: 100px;
-
+    height: 120px;
+    display: flex;
+    margin-top:-3%;
 }
+
+#plus {
+    border: red 1px solid;
+    display: flex;
+    width: 60%;
+}
+
+#UD {
+    border: black 1px solid;
+    background-color: black;
+    width: 70px;
+    height: 20px ;
+    margin-top: 20px;
+    margin-right:
+    
+}
+
+#RL {
+    border:purple 1px solid;
+    background-color:purple;
+    width: 20px;
+    height: 70px;
+    margin-left: 50px;
+}
+
+#buttons {
+    display: flex;
+    width: 60%;
+}
+
+#botonA {
+    border-radius: 20px;
+}
+
+#selectstart {
+    display: flex;
+}
+
+#select {
+    display: flex;
+}
+
+#start {
+    display: flex;
+}
+
 
 #audio {
     height: 70px;
-
 }
