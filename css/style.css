@@ -41,6 +41,7 @@ body {
     font-size: xx-small;
     justify-content: center;
     text-align: center;
+    color: rgb(59, 99, 99);
 }
 
 #pant-main {
@@ -79,9 +80,8 @@ body {
     
 }
 
-#power {
-
-
+#POWER {
+    color: rgb(59, 99, 99);
 }
 
 #logogameboy {
@@ -97,8 +97,8 @@ body {
 
 #letraslogo {
     color: rgb(59, 99, 99);
-    font-family: 'Gill Sans';
-
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-size:large;
 }
 
 #C {
@@ -132,14 +132,24 @@ body {
     color: rgb(165, 165, 165);
 }
 
-#control, #buttons {
+#control {
     border: none;
     height: 90px;
     display: flex;
     justify-content:center;
     align-items: center;
-    margin: 5%;
 }
+
+#buttons {
+    border: none;
+    width: 60px;
+    height: 90px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 5%;
+}
+
 
 #cursor {
     width: 80px;
@@ -147,7 +157,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-left: 1%
+    margin-right: 25%;
 }
 
 #CV {
@@ -157,6 +167,11 @@ body {
     border-radius: 5px;
 }
 
+.flecha {
+    width: 20px;
+    height: 20px;
+}
+
 #CH {
     background-color: rgb(55, 53, 53);
     grid-row: 2/3;
@@ -164,11 +179,16 @@ body {
     border-radius: 5px;
 }
 
+#FA {
+    width: 30px;
+    height: 30px;
+}
+
 #btnAB {
     display: flex;
     width: 120px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
     align-items: center;
     transform: rotate(-30deg);
@@ -194,19 +214,46 @@ body {
     background-color: black;
 }
 
-#selectstart {
-    display: flex;
+.selectstart {
+    margin: 7%;
+    border: none;
 }
 
 #select {
-    display: flex;
+    display:flex;
+    width: 25px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    border-width: 2px 4px;
+    background-color: rgb(55, 53,53 )
 }
 
-#start {
+#start{
     display: flex;
+    width: 25px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    border-width: 2px 4px;
+    background-color: rgb(55, 53,53 )
 }
 
+#start:hover , #select:hover {
+    background-color: black;
+}
 
 #audio {
-    height: 70px;
+    display: flex;
+    height: 50px;
+    width: 70px;
+    margin-left: 40%;
+    border: none;
+    text-align: end;
+    align-items: end;
+
+}
+
+#holes {
+
 }
