@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,11 +13,11 @@ body {
 
 #carcasa {
     background-color: greenyellow;
-    border: 1px black solid;
+    border: rgb(210, 255, 143) outset;
     width: 300px;
     height: 500px;
-    border-radius: 10px 10px 20px 20px;
-    box-shadow: 50px 5px 30px rgb(77, 122, 204) ;
+    border-radius: 10px 10px 10% 10%;
+    box-shadow: 50px 5px 30px rgb(77, 122, 204);
 }
 
 .comp {
@@ -33,10 +33,14 @@ body {
     background-color: rgb(47, 47, 47);
 }
 
-#pant-izq{
-    display: flex;
-    height: 200px ;
+#pant-izq {
     width: 30px;
+    height: ;
+    background-color: rgb (47,47,47);
+    margin-top: 20px;
+    font-size: xx-small;
+    justify-content: center;
+    text-align: center;
 }
 
 #pant-main {
@@ -45,6 +49,10 @@ body {
     width: 260px;
     margin-top: 10%;
     background-color: black;
+}
+
+#pant-main {
+    background-image: url ();
 }
 
 #pant-der {
@@ -56,36 +64,40 @@ body {
 .p-lat {
     color: white;
     width: 40px;
-    font-size:xx-small;
+    font-size: xx-small;
     text-align: center;
-    align-items: center;
 }
 
 #led {
     margin-top: 50px;
-    margin-left: 20px ;
+    margin-left: 9%;
+    margin-bottom: 10%;
     background-color: red;
-    width: 5px;
-    height: 5px;
+    width: 7px;
+    height: 6px;
+    border-radius: 100%;
+    
 }
 
 #power {
+
 
 }
 
 #logogameboy {
     height: 30px;
-    width: 200px ;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -17%;
     margin-left: 15%;
+    border: none;
 }
 
 #letraslogo {
-    font-family:'Gill Sans bold italic';
-    color:rgb(59, 99, 99);
+    color: rgb(59, 99, 99);
+    font-family: 'Gill Sans';
 
 }
 
@@ -93,20 +105,23 @@ body {
     color: red;
 }
 
-#O{
+#O {
     color: purple;
 }
 
 #L {
-    color: greenyellow ;
+    color: greenyellow;
 }
 
-O2 {
+#O2 {
     color: yellow;
 }
 
+#R {
+    color: rgb(0, 175, 178);
+}
 #nintendo {
-    border: black 1px solid;
+    border: rgb(179, 179, 179) 1px inset;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -114,45 +129,69 @@ O2 {
     margin-left: 36%;
     margin-top: 6%;
     width: 80px;
+    color: rgb(165, 165, 165);
 }
 
-#control {
-    height: 120px;
+#control, #buttons {
+    border: none;
+    height: 90px;
     display: flex;
-    margin-top:-3%;
+    justify-content:center;
+    align-items: center;
+    margin: 5%;
 }
 
-#plus {
-    border: red 1px solid;
+#cursor {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 1%
+}
+
+#CV {
+    background-color: rgb(55, 53, 53);
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+    border-radius: 5px;
+}
+
+#CH {
+    background-color: rgb(55, 53, 53);
+    grid-row: 2/3;
+    grid-column: 1 / 4;
+    border-radius: 5px;
+}
+
+#btnAB {
     display: flex;
-    width: 60%;
-}
-
-#UD {
-    border: black 1px solid;
-    background-color: black;
-    width: 70px;
-    height: 20px ;
-    margin-top: 20px;
-    margin-right:
-    
-}
-
-#RL {
-    border:purple 1px solid;
-    background-color:purple;
-    width: 20px;
-    height: 70px;
-    margin-left: 50px;
-}
-
-#buttons {
-    display: flex;
-    width: 60%;
-}
-
-#botonA {
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-30deg);
     border-radius: 20px;
+    margin-left: 20px;
+}
+
+#btnA, #btnB {
+    background-color: rgb(55, 53,53 );
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    margin: 9px;
+    border-radius: 100%;
+    transform: rotate( 30deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnA:hover, #btnB:hover {
+    background-color: black;
 }
 
 #selectstart {
