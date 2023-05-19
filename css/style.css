@@ -121,7 +121,7 @@ body {
     color: rgb(0, 175, 178);
 }
 #nintendo {
-    border: rgb(179, 179, 179) 1px inset;
+    border: rgb(129, 188, 40) 1px inset;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -129,7 +129,7 @@ body {
     margin-left: 36%;
     margin-top: 6%;
     width: 80px;
-    color: rgb(165, 165, 165);
+    color: rgb(129, 188, 40);
 }
 
 #control {
@@ -158,6 +158,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin-right: 25%;
+
 }
 
 #CV {
@@ -173,15 +174,35 @@ body {
 }
 
 #CH {
+    display: flex;
     background-color: rgb(55, 53, 53);
     grid-row: 2/3;
     grid-column: 1 / 4;
     border-radius: 5px;
+    justify-content: space-between;
 }
 
 #FA {
     width: 30px;
     height: 30px;
+}
+
+#flechaAbajo {
+    margin-top: 25px;
+}
+
+#Flechaizq {
+    margin-right: 25px;
+}
+
+#flechader {
+    
+}
+
+#round {
+    display: flex;
+    margin-top: 6px;
+
 }
 
 #btnAB {
@@ -217,11 +238,14 @@ body {
 .selectstart {
     margin: 7%;
     border: none;
+    text-align: center;
+    color: rgb(129, 188, 40);
 }
 
 #select {
     display:flex;
-    width: 25px;
+    justify-content: center;
+    width: 30px;
     height: 10px;
     background-color: rgb(0, 0, 0);
     border-radius: 40px;
@@ -231,7 +255,7 @@ body {
 
 #start{
     display: flex;
-    width: 25px;
+    width: 30px;
     height: 10px;
     background-color: rgb(0, 0, 0);
     border-radius: 40px;
@@ -246,12 +270,13 @@ body {
 #audio {
     display: flex;
     height: 50px;
-    width: 70px;
-    margin-left: 40%;
+    width: 150px;
+    margin-left: 25%;
     border: none;
+    justify-content: center;
     text-align: end;
     align-items: end;
-
+    font-size:x-small;
 }
 
 #holes {
